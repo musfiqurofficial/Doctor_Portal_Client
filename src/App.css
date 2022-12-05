@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.linear-gradient{
+  background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+}
+
+.hero-container{
+  background: linear-gradient(#fffffff2, #f7f4f4f5), url(../src/assets/images/chair.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer-container{
+  background: url(../src/assets/images/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.appointment-container{
+  background: linear-gradient(#5252524c, #2e2e2e28), url(../src/assets/images/appointment.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
